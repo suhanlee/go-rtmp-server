@@ -6,6 +6,13 @@ This is a very tiny demo with rtmp protocol server/client side implement.
 
 You need golang to build all tools. 
 
+## Simple Client, Server Test (Mac)
+```bash
+$ $GOPATH/bin/go-rtmp-server -l :8089 -k test &
+...
+$ ./live.sh test
+```
+
 ## Install
 
 ```bash
